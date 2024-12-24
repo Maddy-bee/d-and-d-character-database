@@ -1,0 +1,138 @@
+[
+    {
+      "Name": "Thalindra",
+      "Class": "Wizard",
+      "Species": "Elf",
+      "Primary Ability": "Intelligence",
+      "Hit Point Die": "D6",
+      "Saves": {
+        "Strength": "Fail",
+        "Dexterity": "Fail",
+        "Constitution": "Pass",
+        "Intelligence": "Pass",
+        "Wisdom": "Fail",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Thalindra hails from the ancient city of Starfall, a haven for scholars and spellcasters. She grew up studying arcane lore and dreams of unlocking the deepest secrets of the multiverse. Thalindra left her home to search for powerful magical artifacts and lost knowledge.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Gorak",
+      "Class": "Barbarian",
+      "Species": "Half-Orc",
+      "Primary Ability": "Strength",
+      "Hit Point Die": "D12",
+      "Saves": {
+        "Strength": "Pass",
+        "Dexterity": "Fail",
+        "Constitution": "Pass",
+        "Intelligence": "Fail",
+        "Wisdom": "Fail",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Born in the harsh wilderness, Gorak learned to survive through brute force and ferocity. He was raised in a clan that worships the primal spirits of nature. After the loss of his tribe in a raid, he now wanders the lands, seeking vengeance and glory.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Liawyn",
+      "Class": "Rogue",
+      "Species": "Halfling",
+      "Primary Ability": "Dexterity",
+      "Hit Point Die": "D8",
+      "Saves": {
+        "Strength": "Fail",
+        "Dexterity": "Pass",
+        "Constitution": "Fail",
+        "Intelligence": "Pass",
+        "Wisdom": "Fail",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Liawyn grew up as an orphan in the bustling city of Rivervale. With her sharp wit and quick reflexes, she quickly became known as one of the city's best thieves. Now, she has expanded her operations across the continent, seeking fortune, thrill, and adventure.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Urik Ironfist",
+      "Class": "Paladin",
+      "Species": "Dwarf",
+      "Primary Ability": "Charisma",
+      "Hit Point Die": "D10",
+      "Saves": {
+        "Strength": "Pass",
+        "Dexterity": "Fail",
+        "Constitution": "Pass",
+        "Intelligence": "Fail",
+        "Wisdom": "Pass",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Urik was once a blacksmith in a quiet dwarven village. After receiving a vision from Moradin, the God of Creation, he was called to be a paladin. He now travels the land defending the innocent and seeking out dark forces that threaten his people and the world.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Isara Moonwhisper",
+      "Class": "Druid",
+      "Species": "Tiefling",
+      "Primary Ability": "Wisdom",
+      "Hit Point Die": "D8",
+      "Saves": {
+        "Strength": "Fail",
+        "Dexterity": "Fail",
+        "Constitution": "Pass",
+        "Intelligence": "Fail",
+        "Wisdom": "Pass",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Isara grew up in the forests of the Eldermoon, where her tiefling heritage made her an outcast. She learned the ways of nature from the druids of the forest, finding peace in their teachings. Now, she roams the world, seeking to protect the natural order and unravel the secrets of her lineage.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Borin Stoneshield",
+      "Class": "Fighter",
+      "Species": "Dwarf",
+      "Primary Ability": "Strength",
+      "Hit Point Die": "D10",
+      "Saves": {
+        "Strength": "Pass",
+        "Dexterity": "Fail",
+        "Constitution": "Pass",
+        "Intelligence": "Fail",
+        "Wisdom": "Pass",
+        "Charisma": "Fail"
+      },
+      "Backstory": "Borin comes from a long line of warriors who served in the deep mines of the Ironfist clan. A staunch protector of his people, Borin now leads a band of mercenaries, defending the dwarven kingdom from threats both internal and external. His shield has never failed him.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Seraphina Brightspark",
+      "Class": "Sorcerer",
+      "Species": "Human",
+      "Primary Ability": "Charisma",
+      "Hit Point Die": "D6",
+      "Saves": {
+        "Strength": "Fail",
+        "Dexterity": "Fail",
+        "Constitution": "Fail",
+        "Intelligence": "Pass",
+        "Wisdom": "Fail",
+        "Charisma": "Pass"
+      },
+      "Backstory": "Seraphina was born with innate magical powers, a gift from an unknown ancestor. As a child, her abilities were uncontrollable, leading to many accidents. Now, as a young adult, she seeks to master her magic and understand her origins, all while dealing with the societal pressures of her noble family.",
+      "Image Link": ""
+    },
+    {
+      "Name": "Kaelen Windrider",
+      "Class": "Ranger",
+      "Species": "Human",
+      "Primary Ability": "Dexterity",
+      "Hit Point Die": "D10",
+      "Saves": {
+        "Strength": "Fail",
+        "Dexterity": "Pass",
+        "Constitution": "Fail",
+        "Intelligence": "Pass",
+        "Wisdom": "Pass",
+        "Charisma": "Fail"
+      },
+      "Backstory": "Kaelen was raised in the wilderness, learning the ways of the forest from his father, a skilled tracker and hunter. With his bow and his companion wolf, he now travels across the land, protecting nature and exploring the vast unknown.",
+      "Image Link": ""
+    }
+  ]
