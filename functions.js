@@ -14,6 +14,8 @@ async function readCharacters() {
 
 // const characterData = await fs.readFile(characters, "utf8");
 //       return JSON.parse(characterData);
+
+
   // function to create a new character and turn it into JSON format. Try and catch statements handle errors 
   async function writeCharacter(characterData) {
     try {
@@ -29,4 +31,12 @@ async function readCharacters() {
   export async function getAllCharacters() {
     const characters = await readCharacters();
     return characters;
+  }
+
+
+  export async function getCharacterByName(name){
+    const characters = await readCharacters();
+    const retrieval = characters.find((character) => character.name === name);
+    console.log('Character retrieved:', retrieval);
+    return retrieval || { message: "Character not found" };
   }

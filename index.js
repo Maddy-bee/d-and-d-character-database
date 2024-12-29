@@ -8,6 +8,7 @@ const PORT = 3000;
 
 import {
     getAllCharacters,
+    getCharacterByName,
 } from "./functions.js";
 
 
@@ -23,3 +24,10 @@ index.get("/characters", async function (req, res) {
     const allCharacters = await getAllCharacters(); 
     res.json(allCharacters); 
 });
+
+index.get("/characters/:name", async function (req, res){
+    const {name} = req.params;
+    console.log(name);
+    const character = await getCharacterByName(name);
+    res.json(character);
+  } )

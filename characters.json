@@ -1,184 +1,184 @@
 [
   {
-    "Name": "Thalindra",
-    "Class": "Wizard",
-    "Sub-Class": "Enchanter",
-    "Species": "Elf",
-    "Sub-Species": "High Elf",
-    "Primary Ability": "Intelligence",
-    "Hit Point Die": "D6",
-    "Saves": {
-      "Strength": "Fail",
-      "Dexterity": "Fail",
-      "Constitution": "Pass",
-      "Intelligence": "Pass",
-      "Wisdom": "Fail",
-      "Charisma": "Pass"
+    "name": "Thalindra",
+    "class": "Wizard",
+    "sub-class": "Enchanter",
+    "species": "Elf",
+    "sub-species": "High Elf",
+    "primary ability": "Intelligence",
+    "hit point die": "D6",
+    "saves": {
+      "strength": "Fail",
+      "dexterity": "Fail",
+      "constitution": "Pass",
+      "intelligence": "Pass",
+      "wisdom": "Fail",
+      "charisma": "Pass"
     },
-    "Background": "Scholar of Arcane Lore",
-    "Backstory": "Thalindra hails from the ancient city of Starfall, a haven for scholars and spellcasters. She grew up studying arcane lore and dreams of unlocking the deepest secrets of the multiverse. Thalindra left her home to search for powerful magical artifacts and lost knowledge.",
-    "Starting Equipment": [
+    "background": "Scholar of Arcane Lore",
+    "backstory": "Thalindra hails from the ancient city of Starfall, a haven for scholars and spellcasters. She grew up studying arcane lore and dreams of unlocking the deepest secrets of the multiverse. Thalindra left her home to search for powerful magical artifacts and lost knowledge.",
+    "starting equipment": [
       "Quarterstaff",
       "Spellbook",
       "Component pouch",
       "Scholar's robes",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Gorak",
-    "Class": "Barbarian",
-    "Sub-Class": "Berserker",
-    "Species": "Half-Orc",
-    "Sub-Species": "Mountain Orc",
-    "Primary Ability": "Strength",
-    "Hit Point Die": "D12",
-    "Saves": {
-      "Strength": "Pass",
-      "Dexterity": "Fail",
-      "Constitution": "Pass",
-      "Intelligence": "Fail",
-      "Wisdom": "Fail",
-      "Charisma": "Pass"
+    "name": "Gorak",
+    "class": "Barbarian",
+    "sub-class": "Berserker",
+    "species": "Half-Orc",
+    "sub-species": "Mountain Orc",
+    "primary ability": "Strength",
+    "hit point die": "D12",
+    "saves": {
+      "strength": "Pass",
+      "dexterity": "Fail",
+      "constitution": "Pass",
+      "intelligence": "Fail",
+      "wisdom": "Fail",
+      "charisma": "Pass"
     },
-    "Background": "Wanderer of the Wilds",
-    "Backstory": "Born in the harsh wilderness, Gorak learned to survive through brute force and ferocity. He was raised in a clan that worships the primal spirits of nature. After the loss of his tribe in a raid, he now wanders the lands, seeking vengeance and glory.",
-    "Starting Equipment": [
+    "background": "Wanderer of the Wilds",
+    "backstory": "Born in the harsh wilderness, Gorak learned to survive through brute force and ferocity. He was raised in a clan that worships the primal spirits of nature. After the loss of his tribe in a raid, he now wanders the lands, seeking vengeance and glory.",
+    "starting equipment": [
       "Greataxe",
       "Explorer's pack",
       "Hide armor",
       "A trophy from a fallen foe"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Liawyn",
-    "Class": "Rogue",
-    "Sub-Class": "Arcane Trickster",
-    "Species": "Halfling",
-    "Sub-Species": "Lightfoot Halfling",
-    "Primary Ability": "Dexterity",
-    "Hit Point Die": "D8",
-    "Saves": {
-      "Strength": "Fail",
-      "Dexterity": "Pass",
-      "Constitution": "Fail",
-      "Intelligence": "Pass",
-      "Wisdom": "Fail",
-      "Charisma": "Pass"
+    "name": "Liawyn",
+    "class": "Rogue",
+    "sub-class": "Arcane Trickster",
+    "species": "Halfling",
+    "sub-species": "Lightfoot Halfling",
+    "primary ability": "Dexterity",
+    "hit point die": "D8",
+    "saves": {
+      "strength": "Fail",
+      "dexterity": "Pass",
+      "constitution": "Fail",
+      "intelligence": "Pass",
+      "wisdom": "Fail",
+      "charisma": "Pass"
     },
-    "Background": "City Thief",
-    "Backstory": "Liawyn grew up as an orphan in the bustling city of Rivervale. With her sharp wit and quick reflexes, she quickly became known as one of the city's best thieves. Now, she has expanded her operations across the continent, seeking fortune, thrill, and adventure.",
-    "Starting Equipment": [
+    "background": "City Thief",
+    "backstory": "Liawyn grew up as an orphan in the bustling city of Rivervale. With her sharp wit and quick reflexes, she quickly became known as one of the city's best thieves. Now, she has expanded her operations across the continent, seeking fortune, thrill, and adventure.",
+    "starting equipment": [
       "Short sword",
       "Leather armor",
       "Thieves' tools",
       "Burglar's pack",
       "A small pouch of stolen coins"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Urik Ironfist",
-    "Class": "Paladin",
-    "Sub-Class": "Oath of Devotion",
-    "Species": "Dwarf",
-    "Sub-Species": "Mountain Dwarf",
-    "Primary Ability": "Charisma",
-    "Hit Point Die": "D10",
-    "Saves": {
-      "Strength": "Pass",
-      "Dexterity": "Fail",
-      "Constitution": "Pass",
-      "Intelligence": "Fail",
-      "Wisdom": "Pass",
-      "Charisma": "Pass"
+    "name": "Urik Ironfist",
+    "class": "Paladin",
+    "sub-class": "Oath of Devotion",
+    "species": "Dwarf",
+    "sub-species": "Mountain Dwarf",
+    "primary ability": "Charisma",
+    "hit point die": "D10",
+    "saves": {
+      "strength": "Pass",
+      "dexterity": "Fail",
+      "constitution": "Pass",
+      "intelligence": "Fail",
+      "wisdom": "Pass",
+      "charisma": "Pass"
     },
-    "Background": "Visionary of Moradin",
-    "Backstory": "Urik was once a blacksmith in a quiet dwarven village. After receiving a vision from Moradin, the God of Creation, he was called to be a paladin. He now travels the land defending the innocent and seeking out dark forces that threaten his people and the world.",
-    "Starting Equipment": [
+    "background": "Visionary of Moradin",
+    "backstory": "Urik was once a blacksmith in a quiet dwarven village. After receiving a vision from Moradin, the God of Creation, he was called to be a paladin. He now travels the land defending the innocent and seeking out dark forces that threaten his people and the world.",
+    "starting equipment": [
       "Warhammer",
       "Shield",
       "Chain mail",
       "Holy symbol of Moradin",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Isara Moonwhisper",
-    "Class": "Druid",
-    "Sub-Class": "Circle of the Land",
-    "Species": "Tiefling",
-    "Sub-Species": "Forest Tiefling",
-    "Primary Ability": "Wisdom",
-    "Hit Point Die": "D8",
-    "Saves": {
-      "Strength": "Fail",
-      "Dexterity": "Fail",
-      "Constitution": "Pass",
-      "Intelligence": "Fail",
-      "Wisdom": "Pass",
-      "Charisma": "Pass"
+    "name": "Isara Moonwhisper",
+    "class": "Druid",
+    "sub-class": "Circle of the Land",
+    "species": "Tiefling",
+    "sub-species": "Forest Tiefling",
+    "primary ability": "Wisdom",
+    "hit point die": "D8",
+    "saves": {
+      "strength": "Fail",
+      "dexterity": "Fail",
+      "constitution": "Pass",
+      "intelligence": "Fail",
+      "wisdom": "Pass",
+      "charisma": "Pass"
     },
-    "Background": "Outcast of Eldermoon",
-    "Backstory": "Isara grew up in the forests of the Eldermoon, where her tiefling heritage made her an outcast. She learned the ways of nature from the druids of the forest, finding peace in their teachings. Now, she roams the world, seeking to protect the natural order and unravel the secrets of her lineage.",
-    "Starting Equipment": [
+    "background": "Outcast of Eldermoon",
+    "backstory": "Isara grew up in the forests of the Eldermoon, where her tiefling heritage made her an outcast. She learned the ways of nature from the druids of the forest, finding peace in their teachings. Now, she roams the world, seeking to protect the natural order and unravel the secrets of her lineage.",
+    "starting equipment": [
       "Scimitar",
       "Shield",
       "Leather armor",
       "Herbalism kit",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Borin Stoneshield",
-    "Class": "Fighter",
-    "Sub-Class": "Battle Master",
-    "Species": "Dwarf",
-    "Sub-Species": "Hill Dwarf",
-    "Primary Ability": "Strength",
-    "Hit Point Die": "D10",
-    "Saves": {
-      "Strength": "Pass",
-      "Dexterity": "Fail",
-      "Constitution": "Pass",
-      "Intelligence": "Fail",
-      "Wisdom": "Pass",
-      "Charisma": "Fail"
+    "name": "Borin Stoneshield",
+    "class": "Fighter",
+    "sub-class": "Battle Master",
+    "species": "Dwarf",
+    "sub-species": "Hill Dwarf",
+    "primary ability": "Strength",
+    "hit point die": "D10",
+    "saves": {
+      "strength": "Pass",
+      "dexterity": "Fail",
+      "constitution": "Pass",
+      "intelligence": "Fail",
+      "wisdom": "Pass",
+      "charisma": "Fail"
     },
-    "Background": "Mercenary Captain",
-    "Backstory": "Borin comes from a long line of warriors who served in the deep mines of the Ironfist clan. A staunch protector of his people, Borin now leads a band of mercenaries, defending the dwarven kingdom from threats both internal and external. His shield has never failed him.",
-    "Starting Equipment": [
+    "background": "Mercenary Captain",
+    "backstory": "Borin comes from a long line of warriors who served in the deep mines of the Ironfist clan. A staunch protector of his people, Borin now leads a band of mercenaries, defending the dwarven kingdom from threats both internal and external. His shield has never failed him.",
+    "starting equipment": [
       "Battleaxe",
       "Shield",
       "Chain mail",
       "Mercenary's badge",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Seraphina Brightspark",
-    "Class": "Sorcerer",
-    "Sub-Class": "Wild Magic",
-    "Species": "Human",
-    "Sub-Species": "Noble",
-    "Primary Ability": "Charisma",
-    "Hit Point Die": "D6",
-    "Saves": {
-      "Strength": "Fail",
-      "Dexterity": "Fail",
-      "Constitution": "Fail",
-      "Intelligence": "Pass",
-      "Wisdom": "Fail",
-      "Charisma": "Pass"
+    "name": "Seraphina Brightspark",
+    "class": "Sorcerer",
+    "sub-class": "Wild Magic",
+    "species": "Human",
+    "sub-species": "Noble",
+    "primary ability": "Charisma",
+    "hit point die": "D6",
+    "saves": {
+      "strength": "Fail",
+      "dexterity": "Fail",
+      "constitution": "Fail",
+      "intelligence": "Pass",
+      "wisdom": "Fail",
+      "charisma": "Pass"
     },
-    "Background": "Noble Sorceress",
-    "Backstory": "Seraphina was born with innate magical powers, a gift from an unknown ancestor. As a child, her abilities were uncontrollable, leading to many accidents. Now, as a young adult, she seeks to master her magic and understand her origins, all while dealing with the societal pressures of her noble family.",
-    "Starting Equipment": [
+    "background": "Noble Sorceress",
+    "backstory": "Seraphina was born with innate magical powers, a gift from an unknown ancestor. As a child, her abilities were uncontrollable, leading to many accidents. Now, as a young adult, she seeks to master her magic and understand her origins, all while dealing with the societal pressures of her noble family.",
+    "starting equipment": [
       "Dagger",
       "Component pouch",
       "Spellbook",
@@ -186,33 +186,33 @@
       "A signet ring",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   },
   {
-    "Name": "Kaelen Windrider",
-    "Class": "Ranger",
-    "Sub-Class": "Hunter",
-    "Species": "Human",
-    "Sub-Species": "Nomadic",
-    "Primary Ability": "Dexterity",
-    "Hit Point Die": "D10",
-    "Saves": {
-      "Strength": "Fail",
-      "Dexterity": "Pass",
-      "Constitution": "Fail",
-      "Intelligence": "Pass",
-      "Wisdom": "Pass",
-      "Charisma": "Fail"
+    "name": "Kaelen Windrider",
+    "class": "Ranger",
+    "sub-class": "Hunter",
+    "species": "Human",
+    "sub-species": "Nomadic",
+    "primary ability": "Dexterity",
+    "hit point die": "D10",
+    "saves": {
+      "strength": "Fail",
+      "dexterity": "Pass",
+      "constitution": "Fail",
+      "intelligence": "Pass",
+      "wisdom": "Pass",
+      "charisma": "Fail"
     },
-    "Background": "Forest Guardian",
-    "Backstory": "Kaelen was raised in the wilderness, learning the ways of the forest from his father, a skilled tracker and hunter. With his bow and his companion wolf, he now travels across the land, protecting nature and exploring the vast unknown.",
-    "Starting Equipment": [
+    "background": "Forest Guardian",
+    "backstory": "Kaelen was raised in the wilderness, learning the ways of the forest from his father, a skilled tracker and hunter. With his bow and his companion wolf, he now travels across the land, protecting nature and exploring the vast unknown.",
+    "starting equipment": [
       "Longbow",
       "Quiver of 20 arrows",
       "Leather armor",
       "Two short swords",
       "Explorer's pack"
     ],
-    "Image Link": ""
+    "image link": ""
   }
 ]
