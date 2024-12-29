@@ -5,14 +5,15 @@ import characters from "./characters.json" with {type: "json" };
 // function to read all the characters from the JSON file. Try and catch statements handle errors 
 async function readCharacters() {
     try {
-      const characterData = await fs.readFile(characters, "utf8");
-      return JSON.parse(characterData);
+      return characters
     } catch (error) {
       console.error("Error reading file:", error);
       return null;
     }
   }
 
+// const characterData = await fs.readFile(characters, "utf8");
+//       return JSON.parse(characterData);
   // function to create a new character and turn it into JSON format. Try and catch statements handle errors 
   async function writeCharacter(characterData) {
     try {
