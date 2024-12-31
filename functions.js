@@ -17,9 +17,9 @@ async function readCharacters() {
 
 
   // function to create a new character and turn it into JSON format. Try and catch statements handle errors 
-  async function writeCharacter(characterData) {
+  async function writeCharacter(characters) {
     try {
-      await fs.writeFile(characters, JSON.stringify(characterData), "utf8");
+      await fs.writeFile("./characters.json", JSON.stringify(characters), "utf8");
       return true;
     } catch (error) {
       console.error("Error writing file:", error);
@@ -39,4 +39,45 @@ async function readCharacters() {
     const retrieval = characters.find((character) => character.name === name);
     console.log('Character retrieved:', retrieval);
     return retrieval || { message: "Character not found" };
+  }
+
+export async function addNewCharacter(name,
+  characterClass,
+  subClass,
+  species,
+  subSpecies,
+  primaryAbility,
+  hitPointDie,
+  strengthSave,
+  dexteritySave,
+  constitutionSave,
+  intelligenceSave,
+  wisdomSave,
+  charismaSave,
+  background,
+  backstory,
+  startingEquipment,
+  imageLink){
+  const newCharacter = {name,
+  characterClass,
+  subClass,
+  species,
+  subSpecies,
+  primaryAbility,
+  hitPointDie,
+  strengthSave,
+  dexteritySave,
+  constitutionSave,
+  intelligenceSave,
+  wisdomSave,
+  charismaSave,
+  background,
+  backstory,
+  startingEquipment,
+  imageLink
+  }
+  const characters = await readCharacters();
+  characters.push(newCharacter);
+  await writeCharacter(characters);
+  return newCharacter;
   }

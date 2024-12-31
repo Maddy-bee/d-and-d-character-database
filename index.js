@@ -9,6 +9,7 @@ const PORT = 3000;
 import {
     getAllCharacters,
     getCharacterByName,
+    addNewCharacter,
 } from "./functions.js";
 
 
@@ -31,3 +32,41 @@ index.get("/characters/:name", async function (req, res){
     const character = await getCharacterByName(name);
     res.json(character);
   } )
+
+  index.post("/characters", async function (req, res){
+    const {name,
+        characterClass,
+        subClass,
+        species,
+        subSpecies,
+        primaryAbility,
+        hitPointDie,
+        strengthSave,
+        dexteritySave,
+        constitutionSave,
+        intelligenceSave,
+        wisdomSave,
+        charismaSave,
+        background,
+        backstory,
+        startingEquipment,
+        imageLink}= req.body;
+    const character = await addNewCharacter(name,
+        characterClass,
+        subClass,
+        species,
+        subSpecies,
+        primaryAbility,
+        hitPointDie,
+        strengthSave,
+        dexteritySave,
+        constitutionSave,
+        intelligenceSave,
+        wisdomSave,
+        charismaSave,
+        background,
+        backstory,
+        startingEquipment,
+        imageLink);
+    res.json(character);
+  })
