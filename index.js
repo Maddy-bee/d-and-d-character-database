@@ -10,6 +10,7 @@ import {
     getAllCharacters,
     getCharacterByName,
     addNewCharacter,
+    editCharacter,
 } from "./functions.js";
 
 
@@ -70,3 +71,14 @@ index.get("/characters/:name", async function (req, res){
         imageLink);
     res.json(character);
   })
+
+  index.patch("/characters/:name", async function (req, res) {
+    const { name } = req.body;
+    const updates = req.body;
+    const character = await editCharacter(name, updates);
+    if (!character) {
+      res.status(404).send("Quote not found");
+      return;
+    }
+    res.json(character);
+  });

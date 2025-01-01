@@ -81,3 +81,20 @@ export async function addNewCharacter(name,
   await writeCharacter(characters);
   return newCharacter;
   }
+
+
+  export async function editCharacter(name, updates ) {
+    const characters = await readCharacters();
+    const character = characters.find((character) => character.name === name);
+    if (!character) {
+      return null;
+    }
+
+    for (const [key, value] of Object.entries(updates)) {
+      if (character.hasOwnProperty(key)) {
+        character[key] = value;  // Update the character's property
+      }
+    }
+    await writeCharacter(characters);
+    return character;
+  }
