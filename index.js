@@ -32,6 +32,10 @@ index.get("/characters/:name", async function (req, res){
     const {name} = req.params;
     console.log(name);
     const character = await getCharacterByName(name);
+    if (!character) {
+        res.status(404).send("Character not found");
+        return;
+      }
     res.json(character);
   } )
 
