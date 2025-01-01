@@ -98,3 +98,14 @@ export async function addNewCharacter(name,
     await writeCharacter(characters);
     return character;
   }
+
+  export async function deleteCharacter(name) {
+    const characters = await readCharacters();
+    const index = characters.findIndex((character) => character.name === name);
+    if (index === -1) {
+      return null;
+    }
+    const deleted = characters.splice(index, 1);
+    await writeCharacter(characters);
+    return deleted[0];
+  }

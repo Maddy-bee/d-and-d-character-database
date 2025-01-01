@@ -11,6 +11,7 @@ import {
     getCharacterByName,
     addNewCharacter,
     editCharacter,
+    deleteCharacter,
 } from "./functions.js";
 
 
@@ -77,7 +78,18 @@ index.get("/characters/:name", async function (req, res){
     const updates = req.body;
     const character = await editCharacter(name, updates);
     if (!character) {
-      res.status(404).send("Quote not found");
+      res.status(404).send("Character not found");
+      return;
+    }
+    res.json(character);
+  });
+
+  index.delete("/characters/:name", async function (req, res) {
+    
+    const character = await deleteCharacter(req.params.name);
+    console.log(req.params.name);
+    if (!character) {
+      res.status(404).send("Character not found");
       return;
     }
     res.json(character);
